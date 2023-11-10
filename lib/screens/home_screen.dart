@@ -270,64 +270,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
               ),
             ),
-            // Padding(
-            //   padding: EdgeInsets.symmetric(horizontal: 15, vertical: 5),
-            //   child: Row(
-            //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            //     children: [
-            //       Text(
-            //         "Sub-Categories",
-            //         style: TextStyle(
-            //           fontSize: 22,
-            //           fontWeight: FontWeight.w500,
-            //         ),
-            //       ),
-            //       TextButton(
-            //         onPressed: () {},
-            //         child: Text(
-            //           "See All",
-            //           style: TextStyle(
-            //             color: Color(0xFFFE805F),
-            //             fontSize: 17,
-            //             fontWeight: FontWeight.bold,
-            //           ),
-            //         ),
-            //       ),
-            //     ],
-            //   ),
-            // ),
-            // Padding(
-            //   padding: const EdgeInsets.all(5),
-            //   child: Wrap(
-            //     spacing: 12, // Adjust the spacing between items
-            //     runSpacing: 20, // Adjust the spacing between rows
-            //     children: List.generate(subcategories.length, (index) {
-            //       double itemWidth = (MediaQuery.of(context).size.width - 50) /
-            //           4; // Adjust the width as needed
-            //       return Container(
-            //         width: itemWidth,
-            //         child: Column(
-            //           crossAxisAlignment: CrossAxisAlignment.center,
-            //           children: <Widget>[
-            //             Image.asset(
-            //               "assets/${subcategories[index]}.png",
-            //               height: 60,
-            //               fit: BoxFit.cover,
-            //             ),
-            //             SizedBox(
-            //               height: 5,
-            //             ),
-            //             Text(
-            //               subcategories[index],
-            //               style: TextStyle(fontSize: 16),
-            //               textAlign: TextAlign.center,
-            //             ),
-            //           ],
-            //         ),
-            //       );
-            //     }),
-            //   ),
-            // ),
+       
 
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 5),
