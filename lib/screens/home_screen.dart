@@ -79,7 +79,6 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 30),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Row(
@@ -270,7 +269,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
               ),
             ),
-       
 
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 5),
